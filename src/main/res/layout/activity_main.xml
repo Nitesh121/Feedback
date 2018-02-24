@@ -1,0 +1,70 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/lg1"
+    android:orientation="vertical"
+    android:background="@drawable/lunch"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+
+   <TextView
+       android:id="@+id/tv1"
+       android:layout_width="218dp"
+       android:layout_height="40dp"
+       android:layout_marginTop="20dp"
+       android:text="Login page"
+       android:paddingLeft="20dp"
+       android:textColor="#11f70a"
+
+       android:textSize="30dp"
+       android:layout_weight="0.01" />
+
+
+   <EditText
+       android:id="@+id/name"
+       android:layout_width="323dp"
+       android:layout_height="53dp"
+       android:layout_marginTop="20dp"
+       android:hint="Email id"
+       android:background="#fbfcfd"
+       android:inputType="text"
+       android:paddingLeft="20dp"
+       android:ems="10"
+       android:paddingRight="20dp"
+       android:textColor="#060d13"
+       android:textColorHint="@color/colorPrimary"
+       android:textSize="20dp" />
+
+
+   <EditText
+       android:id="@+id/pass"
+       android:layout_width="323dp"
+       android:layout_height="53dp"
+       android:layout_marginTop="20dp"
+       android:background="#f9fbfc"
+       android:ems="10"
+       android:hint="Password"
+       android:inputType="textPassword"
+
+       android:paddingLeft="20dp"
+       android:paddingRight="20dp"
+       android:textColor="#060d13"
+       android:textColorHint="@color/colorPrimary"
+
+       />
+
+
+   <Button
+       android:layout_width="192dp"
+       android:layout_height="wrap_content"
+       android:id="@+id/b1"
+       android:text="Submit"
+       android:textColor="#1237ef"
+       android:textSize="30dp"
+       android:onClick="Submit"
+       android:layout_marginTop="20dp"
+       android:background="#fcfcfc" />
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Feedback</string>
+
+<string-array name="NAMES">
+    <item> Select building  </item>
+
+    <item> Apparement1 </item>
+    <item> Apparement2 </item>
+    <item> Apparement3 </item>
+    <item> Apparement4 </item>
+
+
+    </string-array>
+
+</resources>
